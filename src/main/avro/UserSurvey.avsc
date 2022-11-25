@@ -1,0 +1,11 @@
+{"namespace": "com.davidosantos.kafka.kafka",
+ "type": "record",
+ "name": "UserSurvey",
+ "fields": [
+    {"name": "id", "type": "long"},
+    {"name": "user_id", "type": "long"},
+    {"name": "best_actor_for_me", "type": "string", "default" : "none"},    
+    {"name": "name", "type": "string"},
+    {"name": "email", "type": "string", "default" : "none"}
+ ]
+}
